@@ -1,0 +1,17 @@
+streamlit
+pypdf2
+langchain
+python-dotenv
+huggingface_hub
+openai
+faiss-cpu
+langchain-community
+sentence-transformers
+ctransformers
+transformers
+torch
+pypdf
+gpt4all
+openai
+flask
+-e .
