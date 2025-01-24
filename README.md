@@ -6,15 +6,15 @@ This project is an end-to-end Retrieval-Augmented Generation (RAG) chatbot desig
 Before running the app.py file, please ensure the following steps are completed:
 
 1. Download the llm 
-    Download model vinallama-7b-chat-GGUF from https://huggingface.co/vilm/vinallama-7b-chat-GGUF and save it in the folder models
+    Create folder models. Then download model vinallama-7b-chat-GGUF from https://huggingface.co/vilm/vinallama-7b-chat-GGUF and save it in the folder models
 2. Set Up the Environment Variables
-    Type your Hugging Face API token in file .env as shown below:
+    Create file .env and type your Hugging Face API token as shown below:
 
-'''bash
+```bash
 HUGGINGFACEHUB_API_TOKEN = 'your_api_token'
-'''
+```
 3. Download libraries
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
